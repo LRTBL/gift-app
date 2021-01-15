@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.838ee31d.chunk.css",
-    "main.js": "/static/js/main.2d8aedd6.chunk.js",
-    "main.js.map": "/static/js/main.2d8aedd6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6e93c606.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6e93c606.js.map",
-    "static/js/2.dd139bef.chunk.js": "/static/js/2.dd139bef.chunk.js",
-    "static/js/2.dd139bef.chunk.js.map": "/static/js/2.dd139bef.chunk.js.map",
-    "static/js/3.48d549bf.chunk.js": "/static/js/3.48d549bf.chunk.js",
-    "static/js/3.48d549bf.chunk.js.map": "/static/js/3.48d549bf.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.838ee31d.chunk.css.map": "/static/css/main.838ee31d.chunk.css.map",
-    "static/js/2.dd139bef.chunk.js.LICENSE.txt": "/static/js/2.dd139bef.chunk.js.LICENSE.txt"
+    "main.css": "/gift-app/static/css/main.838ee31d.chunk.css",
+    "main.js": "/gift-app/static/js/main.2d8aedd6.chunk.js",
+    "main.js.map": "/gift-app/static/js/main.2d8aedd6.chunk.js.map",
+    "runtime-main.js": "/gift-app/static/js/runtime-main.f1788923.js",
+    "runtime-main.js.map": "/gift-app/static/js/runtime-main.f1788923.js.map",
+    "static/js/2.dd139bef.chunk.js": "/gift-app/static/js/2.dd139bef.chunk.js",
+    "static/js/2.dd139bef.chunk.js.map": "/gift-app/static/js/2.dd139bef.chunk.js.map",
+    "static/js/3.48d549bf.chunk.js": "/gift-app/static/js/3.48d549bf.chunk.js",
+    "static/js/3.48d549bf.chunk.js.map": "/gift-app/static/js/3.48d549bf.chunk.js.map",
+    "index.html": "/gift-app/index.html",
+    "static/css/main.838ee31d.chunk.css.map": "/gift-app/static/css/main.838ee31d.chunk.css.map",
+    "static/js/2.dd139bef.chunk.js.LICENSE.txt": "/gift-app/static/js/2.dd139bef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e93c606.js",
+    "static/js/runtime-main.f1788923.js",
     "static/js/2.dd139bef.chunk.js",
     "static/css/main.838ee31d.chunk.css",
     "static/js/main.2d8aedd6.chunk.js"
