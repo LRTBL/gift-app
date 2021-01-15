@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,EACE,sCACF,CAEA,KACE,YACF,CAEA,MACE,UAAW,CACX,gBAAiB,CACjB,UAEF","file":"main.838ee31d.chunk.css","sourcesContent":["*{\n  font-family: Helvetica, Arial, sans-serif;\n}\n\nbody{\n  padding: 60px;\n}\n\ninput{\n  color: grey;\n  font-size: 1.2rem;\n  width: 100%;\n\n}"]}
