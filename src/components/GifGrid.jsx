@@ -1,7 +1,9 @@
+/* eslint-disable react/jsx-props-no-spreading */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import useFetchGifs from '../hooks/useFetchGifs';
-import GifGridIitem from './GifGridIitem';
+import GifGridItem from './GifGridItem';
 
 const GifGrid = ({ category }) => {
     const { data: images, loading } = useFetchGifs(category);
@@ -12,7 +14,7 @@ const GifGrid = ({ category }) => {
             <h3 className='animate__animated animate__fadeIn'>{category}</h3>
             <div className='card-grid'>
                 {images.map((img) => (
-                    <GifGridIitem key={img.id} img={img} />
+                    <GifGridItem key={img.id} {...img} />
                 ))}
             </div>
         </>
