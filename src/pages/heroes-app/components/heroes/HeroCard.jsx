@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { PUBLIC_URL } from '../../../../config';
 
 const HeroCard = ({ id, superhero, alterEgo, firstAppearance, characters }) => {
     console.log('');
@@ -9,7 +8,7 @@ const HeroCard = ({ id, superhero, alterEgo, firstAppearance, characters }) => {
         <div className='card ms-3 mt-3 animate__animated animate__zoomIn' style={{ maxWidth: 540 }}>
             <div className='row no-gutters'>
                 <div className='col-md-4'>
-                    <img src={`${PUBLIC_URL}/assets/heroes/${id}.jpg`} className='card-img' alt={superhero} />
+                    <img src={`../../assets/images/${id}.jpg`} className='card-img' alt={superhero} />
                 </div>
                 <div className='col-md-8'>
                     <div className='card-body'>
