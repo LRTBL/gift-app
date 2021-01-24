@@ -11,7 +11,7 @@ const AplicationsRouter = () => {
                 <Route exact path='/gif-app' component={GiftApp} />
                 <Route exact path='/todo-list-app' component={TodoApp} />
                 <Route path='/heroes-app' component={HeroesApp} />
-                <Redirect to='/home' />
+                <Redirect to='/' />
             </Switch>
         </div>
     );
