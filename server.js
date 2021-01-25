@@ -16,7 +16,7 @@ app.get('*', cors(corsOptions), (_req, res) => {
     res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3035;
 
 app.listen(port, () => {
     console.log(`Server run in port ${port}`);

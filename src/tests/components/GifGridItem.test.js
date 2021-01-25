@@ -9,6 +9,7 @@ import GifGridItem from '../../pages/gift-expert/components/GifGridItem';
 describe('Pruebas en <GifGridItem/>', () => {
     const title = 'Un titulo';
     const url = 'https://localhost:8080';
+
     const wrapper = shallow(<GifGridItem title={title} url={url} />);
 
     test('Debe de mostrar el componente correctamente', () => {

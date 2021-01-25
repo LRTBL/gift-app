@@ -4,7 +4,7 @@ import React from 'react';
 import GifGrid from '../../pages/gift-expert/components/GifGrid';
 import useFetchGifs from '../../pages/gift-expert/hooks/useFetchGifs';
 
-jest.mock('../../hooks/useFetchGifs');
+jest.mock('../../pages/gift-expert/hooks/useFetchGifs');
 
 const { shallow } = require('enzyme');
 

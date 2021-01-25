@@ -3,7 +3,6 @@ const { DefinePlugin } = require('webpack');
 const Dotenv = require('dotenv-webpack');
 
 require('@babel/polyfill');
-// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const RemovePlugin = require('remove-files-webpack-plugin');
 
 const HtmlWebPackPlugin = require('html-webpack-plugin');
