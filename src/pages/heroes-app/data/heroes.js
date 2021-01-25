@@ -1,6 +1,6 @@
 const heroes = [
     {
-        id: 'dc-batman',
+        id: 'dcBatman',
         superhero: 'Batman',
         publisher: 'DC Comics',
         alterEgo: 'Bruce Wayne',
@@ -8,7 +8,7 @@ const heroes = [
         characters: 'Bruce Wayne',
     },
     {
-        id: 'dc-superman',
+        id: 'dcSuperman',
         superhero: 'Superman',
         publisher: 'DC Comics',
         alterEgo: 'Kal-El',
@@ -16,7 +16,7 @@ const heroes = [
         characters: 'Kal-El',
     },
     {
-        id: 'dc-flash',
+        id: 'dcFlash',
         superhero: 'Flash',
         publisher: 'DC Comics',
         alterEgo: 'Jay Garrick',
@@ -24,7 +24,7 @@ const heroes = [
         characters: 'Jay Garrick, Barry Allen, Wally West, Bart Allen',
     },
     {
-        id: 'dc-green',
+        id: 'dcGreen',
         superhero: 'Green Lantern',
         publisher: 'DC Comics',
         alterEgo: 'Alan Scott',
@@ -32,7 +32,7 @@ const heroes = [
         characters: 'Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz',
     },
     {
-        id: 'dc-arrow',
+        id: 'dcArrow',
         superhero: 'Green Arrow',
         publisher: 'DC Comics',
         alterEgo: 'Oliver Queen',
@@ -40,7 +40,7 @@ const heroes = [
         characters: 'Oliver Queen',
     },
     {
-        id: 'dc-wonder',
+        id: 'dcWonder',
         superhero: 'Wonder Woman',
         publisher: 'DC Comics',
         alterEgo: 'Princess Diana',
@@ -48,7 +48,7 @@ const heroes = [
         characters: 'Princess Diana',
     },
     {
-        id: 'dc-martian',
+        id: 'dcMartian',
         superhero: 'Martian Manhunter',
         publisher: 'DC Comics',
         alterEgo: "J'onn J'onzz",
@@ -56,7 +56,7 @@ const heroes = [
         characters: 'Martian Manhunter',
     },
     {
-        id: 'dc-robin',
+        id: 'dcRobin',
         superhero: 'Robin/Nightwing',
         publisher: 'DC Comics',
         alterEgo: 'Dick Grayson',
@@ -64,7 +64,7 @@ const heroes = [
         characters: 'Dick Grayson',
     },
     {
-        id: 'dc-blue',
+        id: 'dcBlue',
         superhero: 'Blue Beetle',
         publisher: 'DC Comics',
         alterEgo: 'Dan Garret',
@@ -72,7 +72,7 @@ const heroes = [
         characters: 'Dan Garret, Ted Kord, Jaime Reyes',
     },
     {
-        id: 'dc-black',
+        id: 'dcBlack',
         superhero: 'Black Canary',
         publisher: 'DC Comics',
         alterEgo: 'Dinah Drake',
@@ -80,7 +80,7 @@ const heroes = [
         characters: 'Dinah Drake, Dinah Lance',
     },
     {
-        id: 'marvel-spider',
+        id: 'marvelSpider',
         superhero: 'Spider Man',
         publisher: 'Marvel Comics',
         alterEgo: 'Peter Parker',
@@ -88,7 +88,7 @@ const heroes = [
         characters: 'Peter Parker',
     },
     {
-        id: 'marvel-captain',
+        id: 'marvelCaptain',
         superhero: 'Captain America',
         publisher: 'Marvel Comics',
         alterEgo: 'Steve Rogers',
@@ -96,7 +96,7 @@ const heroes = [
         characters: 'Steve Rogers',
     },
     {
-        id: 'marvel-iron',
+        id: 'marvelIron',
         superhero: 'Iron Man',
         publisher: 'Marvel Comics',
         alterEgo: 'Tony Stark',
@@ -104,7 +104,7 @@ const heroes = [
         characters: 'Tony Stark',
     },
     {
-        id: 'marvel-thor',
+        id: 'marvelThor',
         superhero: 'Thor',
         publisher: 'Marvel Comics',
         alterEgo: 'Thor Odinson',
@@ -112,7 +112,7 @@ const heroes = [
         characters: 'Thor Odinson',
     },
     {
-        id: 'marvel-hulk',
+        id: 'marvelHulk',
         superhero: 'Hulk',
         publisher: 'Marvel Comics',
         alterEgo: 'Bruce Banner',
@@ -120,7 +120,7 @@ const heroes = [
         characters: 'Bruce Banner',
     },
     {
-        id: 'marvel-wolverine',
+        id: 'marvelWolverine',
         superhero: 'Wolverine',
         publisher: 'Marvel Comics',
         alterEgo: 'James Howlett',
@@ -128,7 +128,7 @@ const heroes = [
         characters: 'James Howlett',
     },
     {
-        id: 'marvel-daredevil',
+        id: 'marvelDaredevil',
         superhero: 'Daredevil',
         publisher: 'Marvel Comics',
         alterEgo: 'Matthew Michael Murdock',
@@ -136,7 +136,7 @@ const heroes = [
         characters: 'Matthew Michael Murdock',
     },
     {
-        id: 'marvel-hawkeye',
+        id: 'marvelHawkeye',
         superhero: 'Hawkeye',
         publisher: 'Marvel Comics',
         alterEgo: 'Clinton Francis Barton',
@@ -144,7 +144,7 @@ const heroes = [
         characters: 'Clinton Francis Barton',
     },
     {
-        id: 'marvel-cyclops',
+        id: 'marvelCyclops',
         superhero: 'Cyclops',
         publisher: 'Marvel Comics',
         alterEgo: 'Scott Summers',
@@ -152,7 +152,7 @@ const heroes = [
         characters: 'Scott Summers',
     },
     {
-        id: 'marvel-silver',
+        id: 'marvelSilver',
         superhero: 'Silver Surfer',
         publisher: 'Marvel Comics',
         alterEgo: 'Norrin Radd',

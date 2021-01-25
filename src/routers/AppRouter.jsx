@@ -1,9 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
-import { Home } from '../pages';
-import AplicationsRouter from './AplicationsRouter';
-// import HeroRouter from '../pages/heroes-app/routers/AppRouter';
+import { GiftApp, TodoApp, HeroesApp, Home } from '../pages';
 
 const AppRouter = () => {
     console.log('');
@@ -12,7 +10,10 @@ const AppRouter = () => {
             <div>
                 <Switch>
                     <Route exact path='/' component={Home} />
-                    <Route path='/' component={AplicationsRouter} />
+                    <Route exact path='/gif-app' component={GiftApp} />
+                    <Route exact path='/todo-list-app' component={TodoApp} />
+                    <Route path='/heroes-app' component={HeroesApp} />
+                    <Redirect to='/' />
                 </Switch>
             </div>
         </Router>

@@ -1,8 +1,8 @@
 /* eslint-disable no-undef */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import GifGrid from '../../components/GifGrid';
-import useFetchGifs from '../../hooks/useFetchGifs';
+import GifGrid from '../../pages/gift-expert/components/GifGrid';
+import useFetchGifs from '../../pages/gift-expert/hooks/useFetchGifs';
 
 jest.mock('../../hooks/useFetchGifs');
 

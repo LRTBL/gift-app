@@ -15,7 +15,7 @@ const AppRouter = () => {
         <Router>
             <div>
                 <Switch>
-                    <PublicRoute path='/heroes-app/login' exact isAuthenticated={logged} component={LoginScreen} />
+                    <PublicRoute exact path='/heroes-app/login' isAuthenticated={logged} component={LoginScreen} />
                     <PrivateRoute path='/heroes-app' isAuthenticated={logged} component={DashboardRoutes} />
                 </Switch>
             </div>

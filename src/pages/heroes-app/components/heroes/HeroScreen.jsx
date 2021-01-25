@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import { Redirect, useParams } from 'react-router-dom';
 import getHeroById from '../../selectors/getHeroesById';
+// import marvel from '../../../../assets/images/marvel-spider.jpg';
+import * as heroes from '../../../../assets';
 
 const HeroScreen = ({ history }) => {
     const { heroId } = useParams();
@@ -25,7 +27,7 @@ const HeroScreen = ({ history }) => {
     return (
         <div className='row mt-5'>
             <div className='col-4'>
-                <img src={`../../assets/images/${heroId}.jpg`} alt={superhero} className='img-thumbnail animate__animated animate__fadeInLeft' />
+                <img src={heroes[heroId]} alt={superhero} className='img-thumbnail animate__animated animate__fadeInLeft' />
             </div>
             <div className='col-8 animate__animated animate__fadeIn'>
                 <h3> {superhero}</h3>

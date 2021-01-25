@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import getGifs from '../../helpers/getGifs';
+import getGifs from '../../pages/gift-expert/helpers/getGifs';
 
 describe('Prubeas de getGifs Fetch', () => {
     test('Debe de traer 10 elementos', async () => {

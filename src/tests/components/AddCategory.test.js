@@ -7,7 +7,7 @@ import React from 'react';
 import '@testing-library/jest-dom';
 
 import { shallow } from 'enzyme';
-import AddCategory from '../../components/AddCategory';
+import AddCategory from '../../pages/gift-expert/components/AddCategory';
 
 describe('Pruebas en <AddCategory/>', () => {
     const setCategories = jest.fn();

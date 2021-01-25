@@ -4,7 +4,7 @@
 import React from 'react';
 
 import { shallow } from 'enzyme';
-import GifGridItem from '../../components/GifGridItem';
+import GifGridItem from '../../pages/gift-expert/components/GifGridItem';
 
 describe('Pruebas en <GifGridItem/>', () => {
     const title = 'Un titulo';

@@ -1,7 +1,7 @@
-import { API_KEY_GIF } from '../../../config';
+const { REACT_APP_API_KEY } = process.env;
 
 const getGifs = async (category) => {
-    const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(category)}&limit=10&api_key=${API_KEY_GIF}`;
+    const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(category)}&limit=10&api_key=${REACT_APP_API_KEY}`;
     const resp = await fetch(url);
     const { data } = await resp.json();
     const gifs = data.map((img) => ({
