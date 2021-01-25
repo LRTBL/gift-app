@@ -4,6 +4,7 @@ const Dotenv = require('dotenv-webpack');
 
 require('@babel/polyfill');
 const RemovePlugin = require('remove-files-webpack-plugin');
+const ManifestPlugin = require('webpack-manifest-plugin');
 
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -67,10 +68,14 @@ module.exports = {
                 include: ['./dist'],
             },
         }),
-        // new CleanWebpackPlugin(),
+
         new HtmlWebPackPlugin({
             template: './public/index.html',
             filename: 'index.html',
+        }),
+        new ManifestPlugin({
+            filename: 'manifest.json',
+            basePath: '/app/',
         }),
         new MiniCssExtractPlugin(),
         new DefinePlugin({
